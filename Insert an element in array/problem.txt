@@ -1,0 +1,1 @@
+insert an element in an array using class concept.
