@@ -1,0 +1,26 @@
+Rahul loves to play with numbers, he challenges his friend Ankush with a problem related to numbers in which he has to first reverse the order of two digits and then swap them. Let us take the two digits as a and b.
+
+Example 1:
+
+Input:
+a = 1234 
+b = 67890
+Output: 
+9876 4321
+Explanation: Reversing the given two numbers
+will give: 4321 and 9876. After swapping it
+would come as: 9876 and 4321.
+
+Example 2:
+
+Input:
+a = 10000 
+b = 3254
+Output: 
+4523 1
+ 
+
+Your Task: Complete the two functions reverse_dig() and swap() with arguments as a and b references. Don't return anything to the function.
+
+Constraints:
+0 <= a, b <= 105
