@@ -1,0 +1,22 @@
+Problem Statement
+Suggest Edit
+You are given a stack/deque of integers 'MY-STACK' and an integer 'X'. Your task is to
+insert 'X' to the bottom of 'MY-STACK' and return the updated stack/deque.
+Note :
+If 'MY STACK' =
+[7, I, 4, 5], then the first element represents the
+element at the bottom of the stack and the last element represents
+the element at the top of the
+For Example :
+Let 'MY STACK' =
+[7,
+insertion becomes [9,
+5]
+4,
+stack.
+and
+5].
+9.
+so,
+CMY STACK'
+after
