@@ -25,4 +25,4 @@ Expected Time Complexity: O(Nlog10N)
 Expected Space Complexity: O(1)
  
 Constraints:
-1<=N<=105
+1<=N<=105 
