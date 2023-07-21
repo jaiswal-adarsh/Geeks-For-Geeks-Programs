@@ -1,0 +1,25 @@
+Geek has a deck of N cards, each card has a number on it which is represented by an integer array Cards. He wants to know if his deck is lovely or not.
+A deck of cards is lovely if any arrangement of the cards could always be sorted by swaping any 2 cards such that the sum of the 2 cards is always odd. Also you can infinitely swap any 2 cards if their sum is odd. 
+
+If the Geek's cards are lovely, return 1 else return 0.
+
+Example 1:
+
+Input:
+N = 3
+Cards = {2, 2, 4}
+Output: 0
+Explanation: Although the cards are sorted, but the arrangement {4, 2, 2} could never be sorted using the good operations. The cards are not lovely.
+Example 2:
+
+Input:
+N = 3
+Cards = {2, 1, 4}
+Output: 1
+Explanation: Although the cards are not sorted, but all the arrangements (including this) could be sorted using finite number of good operations. The cards are therefore lovely.
+Your Task:
+You don't need to read or print anyhting. Your task is to complete the function lovelyCards() which takes array Cards and integer N as input parameter and returns the boolean answer if the deck is lovely or not. 
+
+Constraints:
+1 <= Cards[i] <= 106
+1 <= N <= 106
