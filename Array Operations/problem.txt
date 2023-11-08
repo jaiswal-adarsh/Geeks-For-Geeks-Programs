@@ -11,7 +11,7 @@ Output:
 Explanation:
 First, we can choose 3 replace with 0(which is on 1st Index) and in the second operation, we can choose 4 & 5 -> replace with 0(1st Index).
 Example 2:
-
+#Adarsh Jaiswal
 Input:
 n = 8
 arr = {10,4,9,6,10,10,4,4}
