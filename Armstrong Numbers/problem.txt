@@ -10,6 +10,8 @@ since 13 + 53 + 33 = 153.
 Hence answer is "Yes".
 Example 2:
 
+#Adarsh Jaiswal
+
 Input: N = 370
 Output: "Yes"
 Explanation: 370 is an Armstrong number
