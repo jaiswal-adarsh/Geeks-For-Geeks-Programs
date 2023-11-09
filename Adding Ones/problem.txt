@@ -38,3 +38,5 @@ Constraints:
 1 ≤ N, K ≤ 105
 
 1 ≤ updates[i] ≤ N, for all i from 1 to N.
+
+@adarshjaiswal0
