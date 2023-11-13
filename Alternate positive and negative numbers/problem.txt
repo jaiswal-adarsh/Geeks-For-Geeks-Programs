@@ -3,6 +3,7 @@ Note: Array should start with a positive number and 0 (zero) should be considere
  
 
 Example 1:
+#Adarsh Jaiswal
 
 Input: 
 N = 9
