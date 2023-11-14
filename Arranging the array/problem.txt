@@ -1,5 +1,6 @@
 You are given an array of size N. Rearrange the given array in-place such that all the negative numbers occur before all non-nagative numbers.(Maintain the order of all -ve and non-negative numbers as given in the original array).
 Example 1:
+#Adarsh Jaiswal
 
 Input:
 N = 4
