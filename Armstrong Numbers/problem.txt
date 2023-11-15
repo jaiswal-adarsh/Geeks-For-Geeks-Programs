@@ -2,7 +2,7 @@ For a given 3 digit number, find whether it is armstrong number or not. An Armst
 NOTE: 371 is an Armstrong number since 33 + 73 + 13 = 371
 
 Example 1:
-
+#Adarsh Jaiswal
 Input: N = 153
 Output: "Yes"
 Explanation: 153 is an Armstrong number
