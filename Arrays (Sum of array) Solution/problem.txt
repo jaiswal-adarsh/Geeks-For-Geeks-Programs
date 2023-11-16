@@ -2,6 +2,7 @@ Given an array of N integers. Your task is to print the sum of all of the intege
  
 
 Example 1:
+#Adarsh Jaiswal
 
 Input:
 4
