@@ -2,6 +2,7 @@ Given an array of N integers. Your task is to print the sum of all of the intege
  
 
 Example 1:
+#Adarsh Jaiswal
 
 Input:
 4
@@ -31,3 +32,5 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 ≤ N ≤ 106
 0 ≤ Arr[i] ≤ 200
+
+#Adarsh Jaiswal
