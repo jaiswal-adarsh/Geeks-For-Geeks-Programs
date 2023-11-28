@@ -67,12 +67,12 @@ class Solution
     Node* findIntersection(Node* head1, Node* head2)
     {
         // code goes here.
-        // unordered_map<Node*,int>m;
+        // unordered_map<int,int>m;
     
         // Node* curr=head1;
         
         // while(curr){
-        //     m[curr]++;
+        //     m[curr->data]++;
         //     curr=curr->next;
         // }
         
@@ -81,7 +81,7 @@ class Solution
         
         // curr=head2;
         // while(curr){
-        //     if(m[curr]){
+        //     if(m[curr->data]){
         //         Node* p=new Node(curr->data);
         //         if(head3==NULL){
         //             head3=p;
@@ -91,6 +91,7 @@ class Solution
         //             tmp->next=p;
         //             tmp=p;
         //         }
+        //            m[curr->data]--;
 
         //     }
 
