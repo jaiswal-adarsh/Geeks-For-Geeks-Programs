@@ -10,14 +10,14 @@ class Solution{
 public:
 	string removeDuplicates(string str) {
 	    // code here
-	    unordered_map<char,int>m;
-	    string s="";
+	    unordered_map<char,int>mp;
+	    string st;
 	    for(int i=0;i<str.size();i++){
-	        m[str[i]]++;
-	        if(m[str[i]]<2)
-	            s+=str[i];
+	        if(!mp[str[i]]++)
+	            st+=str[i];
+	  
 	    }
-	    return s;
+	    return st;
 	}
 };
 
