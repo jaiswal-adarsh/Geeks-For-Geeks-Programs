@@ -12,17 +12,31 @@ struct Node {
   }
 }*head;
 
-Node *findNode(Node* head, int search_for)
+// Node *findNode(Node* head, int search_for)
+// {
+//     Node* current = head;
+//     while (current != NULL)
+//     {
+//         if (current->data == search_for)
+//             break;
+//         current = current->next;
+//     }
+//     return current;
+// }
+class Solution
 {
-    Node* current = head;
-    while (current != NULL)
+    public:
+    //Function to delete a node without any reference to head pointer.
+    void deleteNode(Node *del_node)
     {
-        if (current->data == search_for)
-            break;
-        current = current->next;
+       // Your code here
+       Node* curr=del_node;
+       curr->data=curr->next->data;
+       curr->next=curr->next->next;
     }
-    return current;
-}
+
+};
+
 
 
 void insert()
