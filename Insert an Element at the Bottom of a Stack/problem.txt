@@ -42,3 +42,5 @@ Constraints:
 1 <= X, Elements of Stack <= 103
 Sum of N over all test cases doesn't exceeds 106
 
+#Adarsh
+
