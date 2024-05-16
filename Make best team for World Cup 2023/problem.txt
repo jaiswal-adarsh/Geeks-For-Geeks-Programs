@@ -1,0 +1,44 @@
+ICC Cricket World Cup 2023 is going on and you need to make your own team. There are a total of n players available. You are also given the performance average of these n players in the form of an array arr[ ]. These average values are non-negative integers.
+
+These n players are standing in a queue. You need to pick some players from the given n players to form your own team. The rules for selecting players are as follows :
+
+At every step you select at most one player from the remaining players and who is not selected in previous rounds. (Remember, selecting a player does not remove him from the queue).
+After every step, the first and last player in the remaining queue are removed. So, after the ith step (where i starts from1), ith player and (n - i+1) th player are removed from the queue.
+We keep repeating this process until the queue becomes empty.
+Your task is to select the players for your team in such a way that the sum of the average players of your team is the maximum possible.
+
+ 
+
+Example 1:
+
+Input:
+n = 5
+arr[ ] =  [1, 5, 2, 4, 3]
+Output: 11
+Explanation: 
+In first move, select player with index 4 (average = 4), then remove first and last player arr[ ] = [5, 2, 4], 
+In second move, select player with index 1 (average = 5), then remove first and last player arr[ ] = [ 2 ],
+In third move, select player with index 1 (average = 2), then remove first and last player arr[ ] = [  ],
+Total sum of average = 4 + 5 + 2 = 11
+ 
+
+Example 2:
+
+Input:
+n= 4
+arr[ ] =  [1, 5, 5, 1]
+Output: 10
+ 
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function maximumSum() which takes the integer n, and 1D integer array arr[ ] as parameters and returns the maximum sum of the average of players of your team.
+
+ 
+
+Constraints:
+1 ≤ n ≤  105 
+0 ≤ arri  ≤ 109 
+
+Expected Time Complexity:  O(nlog(n))
+
+Expected Space Complexity:  O(n)
