@@ -4,7 +4,7 @@ Note: 1-based indexing is used everywhere in this question.
 Example 1:
 
 #Adarsh Jaiswal
-
+aadi
 Input:
 N = 3, K = 4
 1 1 2 3
