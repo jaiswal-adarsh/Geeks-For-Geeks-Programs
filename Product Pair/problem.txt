@@ -1,0 +1,17 @@
+Given an array, arr[] of distinct elements, and a number x, find if there is a pair in arr[] with a product equal to x. Return true if there exists such pair otherwise false.
+
+Examples:
+
+Input: arr[] = [10, 20, 9, 40], x = 400
+Output: true
+Explanation: As 10 * 40 = 400, the answer is true.
+Input: arr[] = [-10, 20, 9, -40], x = 30
+Output: false
+Explanation: No pair exists with product 30.
+Expected Time Complexity: O(n)
+Expected Space Complexity: O(n)
+
+Constraints:
+1 ≤ arr.size ≤ 105
+-108 ≤ |arri| ≤ 108
+-1018 ≤ |x| ≤ 1018
